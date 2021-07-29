@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "CoinMetric",
+    "slug": "CoinMetric",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "CoinMetric"
+}
