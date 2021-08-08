@@ -14,7 +14,7 @@ const CONTAINER = (
 ): ViewStyle => ({
   borderWidth: hasBorder ? 2 : 0,
   borderColor: isInvalid ? colors.red : colors.textFieldBDColor,
-  // width: Layout.window.width / 1.3,
+  width: Layout.window.width / 2.5,
   borderRadius: 10,
   flexDirection: 'row',
   backgroundColor: colors.white,
@@ -33,7 +33,7 @@ const INPUT: TextStyle = {
   // lineHeight: 10,
   borderRadius: 10,
   borderColor: colors.textFieldBDColor,
-  width: Layout.window.width / 1.35,
+  width: Layout.window.width / 2.5,
   // fontSize: 15
 }
 
@@ -42,7 +42,7 @@ const FIELD_VALIDATION = (
   showRightAway: boolean = true
 ): TextStyle => ({
   marginTop: 4,
-  paddingLeft: 18,
+  // paddingLeft: 18,
   marginBottom: 6,
   opacity: isInvalid ? 1 : 0,
   display: showRightAway ? "flex" : isInvalid ? "flex" : "none"

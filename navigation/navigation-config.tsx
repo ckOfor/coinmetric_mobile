@@ -37,7 +37,6 @@ export const DEFAULT_CART_STACK_NAVIGATOR_CONFIG: StackNavigatorConfig = {
   navigationOptions: ({ navigation }: any) =>  {
 
     const { state } = navigation;
-    // console.tron.log(state.routes[state.index].params, 'state.routes[state.index].params')
 
     return {
       tabBarVisible: state.routes[state.index].routeName !== "payment"
@@ -121,7 +120,6 @@ export const DEFAULT_BOTTOM_NAVIGATION: BottomTabNavigatorConfig = {
       let image: any
 
       let darkMode = () => eventEmitter.on('currentModeChanged', newMode => {
-        // console.tron.log('Switched to', newMode, 'mode')
         return newMode
       })
 
